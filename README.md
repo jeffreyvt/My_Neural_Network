@@ -1,1 +1,2 @@
 # My_Neural_Network
+A basic Neural Network implementation in Python 3.5 used to recognise MNIST hand written digits. The code is inspired by the book: http://neuralnetworksanddeeplearning.com/. Modifications were made to vectorise the back propagation algorithm to speed up the speed of learning by at least 2x. The current 748, 30, 10 implementation has achieved 95% accuracy with the current MNIST dataset.
