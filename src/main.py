@@ -7,4 +7,4 @@ if __name__ == "__main__":
 
 
     net = network.Network([784, 30, 10])
-    net.SGD(training_data, 30, 10, 0.1, test_data=test_data)
+    net.SGD(training_data, 30, 10, 3.0, test_data=test_data)
